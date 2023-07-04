@@ -49,7 +49,7 @@ public class CurrencyDenomination {
 				amount %= currency[i];
 			}
 		}
-		System.out.println("Your payment approach in order to give min number pf notes willb be");
+		System.out.println("Your payment approach in order to give min number Of notes will be");
 		for (PaymentApproach approach : paymentApproach) {
 
 			System.out.println(approach.denomination + ":" + approach);
